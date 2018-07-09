@@ -1,0 +1,156 @@
+body
+{
+	background:url("../img/bgr.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+
+
+h1
+{
+	text-align:center;
+	font-family:"Mistral";
+	font-size:55pt;
+	text-shadow:2px 3px 8px DimGrey;
+	
+}
+
+nav
+{
+	display:block;
+	position:absolute;
+	top:7%;
+	left:18%;
+	padding:0;
+	width:64%;
+}
+
+nav ul
+{
+	list-style:none;
+	display:-webkit-flex;
+	display:flex;
+	padding-left:0;
+}
+
+nav a
+{
+	padding:0.5em;
+	display:block;
+	color:DimGrey;
+	font-size:20pt;
+	font-family:"Mistral";
+	text-decoration:none;
+	margin:12pt;
+	transition:all .0s ease-in-out;
+
+
+}
+
+ nav a:hover
+{
+	color:black;
+}
+
+ nav a:active
+{
+	color:DimGrey;
+}
+
+h2
+{
+	text-align:center;
+}
+
+.telo
+{
+	display:block;
+	position:absolute;
+	top:20%;
+	font-size:20pt;
+	font-family:"Mistral";
+	margin-left:10%;
+	margin-right:10%;
+	padding-top:0;
+	
+}
+
+footer
+{
+	text-align:center;
+	width:25%;
+	display:block;
+	position:fixed;
+	bottom:1%;
+	right:35px;
+	font-size:18pt;
+	font-family:"Mistral";
+}
+
+.container{  
+    width: 400px;  
+    margin: 50px auto 0px; /* buttons pushed from the top by 10% */ 
+	padding:0;
+}  
+
+.button{  
+    margin: 8px;  
+}  
+
+.button a{  
+    font-family: arial, sans-serif;
+    font-size: 13px;  
+	color: #777;
+	text-shadow: 1px 1px 0px white;
+	background: -moz-linear-gradient(top, #ffffff 0%, #dfdfdf 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dfdfdf));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); 
+	background: -o-linear-gradient(top, #ffffff 0%,#dfdfdf 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); 
+    -moz-border-radius: 3px;  
+    -webkit-border-radius: 3px;  
+    border-radius: 3px;  
+    -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  
+    padding: 6px 12px;
+	opacity:.6;
+}  
+
+.button a:hover{  
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #eee 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eee));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eee 100%); 
+    background: -o-linear-gradient(top, #ffffff 0%,#eee 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#eee 100%);
+    -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  
+}  
+
+.button a:active{   
+    background: -moz-linear-gradient(top, #dfdfdf 0%, #f1f1f1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfdf), color-stop(100%,#f1f1f1));
+    background: -webkit-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%);  
+    background: -o-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%);
+    background: -ms-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); 
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1);  
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1);  
+
+}
+
+.button a > img{  
+    padding-right: 10px;  
+    position: relative;  
+    top: 2px;  
+}  
+
+#act
+{
+	color:black;
+}
+
+
