@@ -178,6 +178,15 @@ footer
 
 @media all and (max-width:960px){
 
+	body
+	{
+		background:url("../img/bgr.jpg");
+		background-size:auto 100%;
+		background-position: 40% 100%;
+		background-attachment: fixed;
+		
+	}
+
 	.menu{
 		flex-direction:column;
 		min-height:50px;
