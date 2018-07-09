@@ -168,5 +168,34 @@ footer
 	color:black;
 }
 
+.menu > li{
+	flex:3 1 80%;
+}
+
+#main{
+	flex:3 1 90%;
+}
+
+@media all and (max-width:640px){
+
+	.menu{
+		flex-direction:column;
+		min-height:50px;
+		max-height:50px;
+	}
+	.telo>{
+	order:1;
+	}
+	.menu>li{
+		order:2;
+	}
+	.menu>li{
+		min-height:50px;
+		max-height:50px;
+	}
+}
+
+
+
 
 
