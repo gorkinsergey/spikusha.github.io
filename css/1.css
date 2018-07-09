@@ -1,3 +1,9 @@
+@font-face {
+ font-family: Mistral;
+ src: local("Mistral"), /* Проверка указанного шрифта в ОС */
+ url(/fonts/mistral.ttf);
+ }
+
 body
 {
 	background:url("../img/bgr.jpg");
