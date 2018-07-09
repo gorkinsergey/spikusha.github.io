@@ -197,6 +197,15 @@ footer
 
 @media only screen and (max-device-width: 480px){
 
+		body
+	{
+		background:url("../img/bgr.jpg");
+		background-size:auto 100%;
+		background-position: 40% 100%;
+		background-attachment: fixed;
+		
+	}
+
 
 	.menu{
 		flex-direction:column;
@@ -206,14 +215,14 @@ footer
 	.telo>p{
 	order:1;
 	font-size:50pt;
-	margin:0 auto;
+	margin:0;
 	margin-top:150pt;
 	display:flex;
 	position: relative;
-	right:90%;
+	right:120%;
 	top:25%;
-	width:80%;
-	height:80%;
+	width:auto;
+	height:auto;
 	}
 
 	.menu>li>a{
